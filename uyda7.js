@@ -9,6 +9,6 @@ function x (a){
         <p>${element.id}</p>
         <p>${element.title}</p>
         `
-        div.append(box);
+        wrap.appendChild(box);
     })
 }
